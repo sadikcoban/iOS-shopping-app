@@ -35,8 +35,10 @@ struct QuantityFavoriteDetailView: View {
                 
             Spacer()
             
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Button(action: {
                 feedback.impactOccurred()
+            }, label: {
+                
                 Image(systemName: "heart.circle")
                     .foregroundColor(.pink)
             })
